@@ -1,0 +1,40 @@
+﻿@model BLOG
+
+@{
+    ViewBag.Title = "Adam Asmaca";
+}
+
+<h2 style="text-align:center;">Adam Asmaca Oyunu</h2>
+<p style="margin-left: 20px;">
+    C dilinde yazılmış bir "Adam Asmaca" oyunudur. Oyuncu, verilen kelimeyi harf tahminleriyle bulmaya çalışır.
+    Yanlış tahminler sonucunda ekranda bir "adam asma" figürü çizilir ve bu figür tamamlandığında oyun sona erer.</p>
+
+
+
+<div class="alert role="alert">
+    Adam Asmaca oyununun <a href="https://github.com/alperckrva/Hangman-game-with-C--C-ile-adam-asmaca-oyunu-" target="_blank" class="alert-link">GitHub Link'i</a> için tıklayınız.
+</div>
+
+<div class="alert role="alert">
+    Adam Asmaca oyununun <a href="/blog/adamkod" target="_blank" class="alert-link">C kodu</a> için tıklayınız.
+</div>
+
+<div id="item-img" style="width: 100%; text-align: center; margin-top: 100px; border: none; outline: none;">
+    <div class="item" style="width: 800px; height: 600px; margin: 0 auto; overflow: hidden; border: none; outline: none;">
+        <p style="text-align:center; margin: 1px 50px;">Oyun Başlangıcı:</p>
+        <img src="/img/@Model.BaslangicAdam" alt="" style="width: 300px; height: auto; margin: 0;" />
+    </div>
+
+    <div class="item" style="width: 800px; height: 600px; margin: 0px auto; overflow: hidden; border: none; outline: none;">
+        <p style="text-align:center; margin: 1px 10px;">Kazandıysanız:</p>
+        <img src="/img/@Model.KazananAdam" alt="" style="width: 300px; height: auto; margin: 0;" />
+    </div>
+
+    <div class="item" style="width: 800px; height: 600px; margin: 0 auto; overflow: hidden; border: none; outline: none;">
+        <p style="text-align:center; margin: 1px 10px;">Kaybettiyseniz:</p>
+        <img src="/img/@Model.KaybedenAdam" alt="" style="width: 300px; height: auto; margin: 0;" />
+    </div>
+</div>
+
+
+

@@ -1,0 +1,41 @@
+﻿@model BLOG  //_ViewImports.cshtml içine açtığımız using'den dolayı direkt blog diye kullanabiliriz artık
+
+@{
+    ViewBag.Title = "Sosyal Medya Hesapları";
+}
+
+
+
+<div style="display: flex; justify-content: center; gap: 20px; padding-top: 20px;">
+    <div class="card" style="width: 18rem;">
+        <img src="/img/@Model.InstaIMAGE" class="card-img-top" alt="" style="width: auto; height: auto;">
+        <div class="card-body">
+            <h5 class="card-title">İnstagram</h5>
+            <p class="card-text">İnstagram adresim.</p>
+            <a href="https://www.instagram.com/alperckrva/" target="_blank" class="btn btn-primary">Tıkla</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem";>
+        <img src="/img/@Model.TwitterIMAGE" class="card-img-top" alt="" style="width: auto; height: 287px;">
+        <div class="card-body">
+            <h5 class="card-title">X</h5>
+            <p class="card-text">X adresim.</p>
+            <a href="https://x.com/jaialper" target="_blank" class="btn btn-primary">Tıkla</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem" ;>
+        <img src="/img/@Model.LinkIMAGE" class="card-img-top" alt="" style="width: auto; height: auto;">
+        <div class="card-body">
+            <h5 class="card-title">Linkedln</h5>
+            <p class="card-text">Linkedln adresim.</p>
+            <a href="https://www.linkedin.com/in/alperen-%C3%A7ukurova-05108b24a/" target="_blank" class="btn btn-primary">Tıkla</a>
+        </div>
+    </div>
+
+
+</div>
+
+
+

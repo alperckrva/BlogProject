@@ -1,0 +1,25 @@
+﻿@model BLOG
+
+@{
+    ViewBag.Title = "Projelerim";
+}
+
+<div style="display: flex; justify-content: center; gap: 20px; padding-top: 20px;">
+    <div class="card" style="width: 18rem;">
+        <img src="/img/@Model.HesapMakinesi" class="card-img-top" alt="" />
+        <div class="card-body">
+            <h5 class="card-title">Hesap Makinesi</h5>
+            <p class="card-text">Java dili kullanılarak kodlanmış olan bir mobil uygulama.</p>
+            <a href="/blog/hesapmakinesi" class="btn btn-primary">Linke Tıkla</a> <!--burası kartın linki için geçerli olan kod parçası  -->
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="/img/@Model.AdamAsmaca" class="card-img-top" alt="" />
+        <div class="card-body">
+            <h5 class="card-title">Adam Asmaca</h5>
+            <p class="card-text">C dili kullanılarak kodlanmış olan bir oyun.</p>
+            <a href="/blog/adamasmaca" class="btn btn-primary">Linke Tıkla</a> <!--burası kartın linki için geçerli olan kod parçası  -->
+        </div>
+    </div>
+</div>

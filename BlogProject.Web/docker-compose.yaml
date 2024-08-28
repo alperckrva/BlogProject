@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  web1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: composeimage:v1
+    ports:
+      - "5009:80"
+    volumes:
+      - testvolume:/data
+    restart: always
+    container_name: 5009container
+
+  web2:
+    image: blogproje:v1
+    ports:
+      - "5007:80"
+    restart: always
+    container_name: 5007container
+
+volumes:
+  testvolume:
