@@ -1,5 +1,6 @@
 BlogProject
-Bu proje, ASP.NET Core MVC ile geliştirilmiş bir blog platformudur. Kullanıcıların blog gönderileri oluşturmasına, düzenlemesine ve görüntülemesine olanak tanır.
+
+LC Waikiki'de DevOps stajım sırasında ASP.NET Core MVC kullanarak bir blog platformu oluşturmak amacıyla geliştirildi. Docker ile konteynerleştirilerek, uygulama her ortamda tutarlı bir şekilde çalışabilir hale getirildi. Ayrıca, Azure DevOps üzerinde deployment-test.yaml dosyası oluşturarak CI/CD süreçlerini otomatikleştirdim. Pipeline üzerinden gerçekleştirilen build işlemleri sorunsuz bir şekilde tamamlandı ve projenin her yeni versiyonu başarıyla deploy edildi.  
 
 Özellikler
 Blog gönderisi oluşturma
